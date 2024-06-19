@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        MOVIE-MANIA
+    </title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        .movie-container {
+            display: inline-block;
+            margin: 26px;
+            text-align: center;
+        }
+
+        .movie-container img {
+            width: 200px;
+            height: auto;
+            border: 2px solid #000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.4s;
+        }
+
+        .movie-container img:hover {
+            transform: scale(1.07);
+        }
+
+        figcaption {
+            margin-top: 15px;
+        }
+
+        .search-bar {
+            margin: 30px;
+            text-align: center;
+        }
+
+        .search-bar input[type="text"] {
+            width: 400px;
+            padding: 11px;
+            border: 2px solid #000;
+            border-radius: 200px;
+            box-shadow: 0 9px 8px rgba(0, 0, 0, 0.6);
+        }
+
+        .search-bar input[type="submit"] {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            background-color: #000000;
+            color: #ffffff;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(219, 223, 23, 0.2);
+        }
+
+        .search-bar input[type="submit"]:hover {
+            background-color: #e30a0a;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>WELCOME</h1>
+    <h2>Select movies to watch</h2>
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search for movies...">
+        <input type="submit" value="Search">
+    </div>
+
+    <div class="movie-container">
+        <a href="https://youtu.be/Bd9L8M4dpGI?feature=shared" target="_blank"><img src="images.jpeg"
+                alt="Sorry...."></a>
+        <figcaption>MOVIE 1</figcaption>
+        <figcaption>2011 ‧ Adventure/Thriller ‧ 1h 55m
+        </figcaption>
+    </div>
+    <div class="movie-container">
+        <a href="https://youtu.be/Bd9L8M4dpGI?feature=shared" target="_blank"><img src="download.jpeg"
+                alt="Sorry...."></a>
+        <figcaption>MOVIE 2</figcaption>
+        <figcaption>2017 ‧ Adventure/Thriller ‧ 2h 55m
+        </figcaption>
+    </div>
+    <div class="movie-container">
+        <a href="https://youtu.be/Yi9atecp1QQ?feature=shared" target="_blank"><img src="download1.jpeg"
+                alt="Sorry...."></a>
+        <figcaption>MOVIE 3</figcaption>
+        <figcaption>2013 ‧ Adventure/Thriller ‧ 1h 40m
+        </figcaption>
+    </div>
+    <div class="movie-container">
+        <a href="https://youtu.be/Bd9L8M4dpGI?feature=shared" target="_blank"><img src="download2.jpeg"
+                alt="Sorry...."></a>
+        <figcaption>MOVIE 4</figcaption>
+        <figcaption>2012 ‧ Adventure/Thriller ‧ 9h 55m
+        </figcaption>
+    </div>
+    <div class="movie-container">
+        <a href="https://youtu.be/Yi9atecp1QQ?feature=shared" target="_blank"><img src="download3.jpeg"
+                alt="Sorry...."></a>
+        <figcaption>MOVIE 5</figcaption>
+        <figcaption>2018 ‧ Adventure/Thriller ‧ 3h 55m
+        </figcaption>
+    </div>
+
+</body>
+
+</html>
